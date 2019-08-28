@@ -1,0 +1,35 @@
+header{
+	button:nth-of-type(1) {
+		background-color:white;
+		border:none;
+		border-radius:50px;
+		box-shadow:0 2px 5px gray;
+		width:30%;
+		max-width:200px;
+		height:2.2em;
+		font-weight:700;
+		font-size:1.1em;
+	}
+	div:nth-of-type(2) > button:nth-of-type(1){
+		background-color:$pink;
+		width:85%;
+		max-width:300px;
+		color:white;
+		font-weight:700;
+		height:3em;
+		box-shadow:none;
+	}
+}
+main{
+	button{
+		background-color:$pink;
+		width:85%;
+		max-width:350px;
+		color:white;
+		font-weight:700;
+		height:3.5em;
+		box-shadow:none;
+		border-radius:30px;
+		border:none;	
+	}
+}
